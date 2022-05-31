@@ -1,0 +1,10 @@
+*mlflow.db
+mlflow.db
+*.db
+*.pkl
+*model.pkl
+*module-01/mlruns./.git/objects/26/ad69ad6fccc7f2e7c268c79134947c3d605154
+./.git/objects/26/ad69ad6fccc7f2e7c268c79134947c3d605154
+./module-01/mlruns/1/e78a1725c4b34cbc933bf4df1f15ee0d/artifacts/model/model.pkl
+./module-01/mlruns/1/e9d95fd0112e49088164ddcbe024b645/artifacts/model/model.pkl
+./.git
