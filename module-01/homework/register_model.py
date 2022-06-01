@@ -65,7 +65,7 @@ def run(data_path, log_top):
 
 
     # select the model with the lowest test RMSE
-    experiment = client.get_experiment_by_name("random-forest-best-models")
+    experiment = client.get_experiment_by_name(EXPERIMENT_NAME)
     best_run = client.search_runs( 
         experiment_ids=experiment.experiment_id,
         run_view_type=ViewType.ACTIVE_ONLY,

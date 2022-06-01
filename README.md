@@ -3,10 +3,11 @@ mlops-zoomcamp-notebook
 
 
 ## Overview
+ML model optimization requires running several experiments in order to get the parameters that give the best output for our model.
+Tracking and managing these experiments manually is a daunting task and requires the use of appropriate to automate these processes.
 
 ### Objective
-
-Practical aspects of productionizing ML services — from collecting requirements to model deployment and monitoring.
+Learning the practical aspects of productionizing ML services — from collecting requirements to model deployment, monitoring and model management.
 
 =======
 ### [Module 0(Week 1): Introduction (learning objectives)](https://github.com/baldcodr/mlops-zoomcamp-notebook/blob/main/module-00)
@@ -16,7 +17,7 @@ Practical aspects of productionizing ML services — from collecting requirement
 * Course overview
 * Environment preparation
 * Completing the assignment for the week 1
-
+=======
 ### [Module 1(Week 2): Introduction (learning objectives)](https://github.com/baldcodr/mlops-zoomcamp-notebook/blob/main/module-01)
 * Experiment tracking intro
 * Getting started with MLflow
@@ -25,3 +26,4 @@ Practical aspects of productionizing ML services — from collecting requirement
 * Model registry
 * MLflow in practice
 * Module 1(Week 2) assigement completion
+=======
