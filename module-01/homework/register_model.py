@@ -68,14 +68,13 @@ def run(data_path, log_top):
     experiment = client.get_experiment_by_name("random-forest-best-models")
     best_run = client.search_runs( 
         experiment_ids=experiment.experiment_id,
-        # filter_string="metrics.rmse < 7",
         run_view_type=ViewType.ACTIVE_ONLY,
         max_results=log_top,
-        order_by=["metrics.training_rmse ASC"]
+        order_by=["metrics.test_rmse ASC"]
       )[0]
 
     # print(best_run)
-    print(f"run id: {best_run.info.run_id}, rmse: {best_run.data.metrics['training_rmse']: .4f}")
+    print(f"run id: {best_run.info.run_id}, rmse: {best_run.data.metrics['test_rmse']: .4f}")
 
     # register the best model
     mlflow.set_tracking_uri("http://127.0.0.1:5000")
