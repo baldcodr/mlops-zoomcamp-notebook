@@ -8,7 +8,7 @@ from sklearn.metrics import mean_squared_error
 
 import mlflow
 
-mlflow.set_tracking_uri("sqlite:///module-01/mlflow.db")
+mlflow.set_tracking_uri("sqlite:///mlflow.db")
 mlflow.set_experiment("ny-taxi-homework")
 
 

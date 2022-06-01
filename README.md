@@ -17,7 +17,7 @@ Practical aspects of productionizing ML services — from collecting requirement
 * Environment preparation
 * Completing the assignment for the week 1
 
-### [Module 1(Week 2): Introduction (learning objectives)](https://github.com/baldcodr/mlops-zoomcamp-notebook/blob/main/module01)
+### [Module 1(Week 2): Introduction (learning objectives)](https://github.com/baldcodr/mlops-zoomcamp-notebook/blob/main/module-01)
 * Experiment tracking intro
 * Getting started with MLflow
 * Experiment tracking with MLflow
