@@ -10,15 +10,16 @@ Tracking and managing these experiments manually is a daunting task and requires
 Learning the practical aspects of productionizing ML services — from collecting requirements to model deployment, monitoring and model management.
 
 =======
-### [Module 0(Week 1): Introduction (learning objectives)](https://github.com/baldcodr/mlops-zoomcamp-notebook/blob/main/module-00)
+### [Module 0(Week 1): Introduction (objectives)](https://github.com/baldcodr/mlops-zoomcamp-notebook/blob/main/module-00)
 * What is MLOps
 * Running example: NY Taxi trips dataset
 * Why do we need MLOps
 * Course overview
 * Environment preparation
 * Completing the assignment for the week 1
+
 =======
-### [Module 1(Week 2): Introduction (learning objectives)](https://github.com/baldcodr/mlops-zoomcamp-notebook/blob/main/module-01)
+### [Module 1(Week 2): Experiment Tracking (objectives)](https://github.com/baldcodr/mlops-zoomcamp-notebook/blob/main/module-01)
 * Experiment tracking intro
 * Getting started with MLflow
 * Experiment tracking with MLflow
@@ -26,4 +27,13 @@ Learning the practical aspects of productionizing ML services — from collectin
 * Model registry
 * MLflow in practice
 * Module 1(Week 2) assigement completion
+
 =======
+### [Module 2(Week 3): Orchestration and ML Pipelines (objectives)](https://github.com/baldcodr/mlops-zoomcamp-notebook/blob/main/module-02)
+* Workflow orchestration
+* Prefect 2.0
+* Turning a notebook into a pipeline
+* Building Prefect Sequential tasks runners and flows 
+* Deployment of Prefect flow of remote Prefect Orion
+* Work Queues and Agents
+* Week 3 assigement completion
