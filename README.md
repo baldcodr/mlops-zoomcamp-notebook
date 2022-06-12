@@ -33,4 +33,4 @@ Learning the practical aspects of productionizing ML services — from collectin
 * Building Prefect Sequential tasks runners and flows 
 * Deployment of Prefect flow of remote Prefect Orion
 * Work Queues and Agents
-* Week 3 assigement completion
+* Week 3 assigement submitted
