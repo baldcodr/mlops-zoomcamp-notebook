@@ -173,7 +173,7 @@ from datetime import timedelta
 DeploymentSpec(
     flow=main,
     name="model_training",
-    schedule=IntervalSchedule(interval=timedelta(minutes=5)),
+    # schedule=IntervalSchedule(interval=timedelta(minutes=5)),
     flow_runner=SubprocessFlowRunner(),
     tags=["ml"]
 )

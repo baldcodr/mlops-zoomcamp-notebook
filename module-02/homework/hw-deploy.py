@@ -126,4 +126,17 @@ def main(date=None):
 
     run_model(df_val_processed, categorical, dv, lr)
 
-main(date="2021-03-15")
+# Creating a Prefect deployment
+from prefect.deployments import DeploymentSpec
+from prefect.flow_runners import SubprocessFlowRunner
+from prefect.orion.schemas.schedules import CronSchedule
+
+DeploymentSpec(
+    flow=main,
+    name="model_train",
+    schedule=CronSchedule(
+        cron="0 9 15 * *",
+        timezone="Europe/London"),
+    flow_runner=SubprocessFlowRunner(),
+    tags=["ml-model-deploy"],
+)
