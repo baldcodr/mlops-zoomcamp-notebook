@@ -34,3 +34,10 @@ Learning the practical aspects of productionizing ML services — from collectin
 * Deployment of Prefect flow of remote Prefect Orion
 * Work Queues and Agents
 * Week 3 assigement submitted
+
+### [Module 3(Week 4): Model Deployment](https://github.com/baldcodr/mlops-zoomcamp-notebook/blob/main/module-03) 
+* Model deployment: Online (web and streaming) and offline (batch)
+* Web service model deployment using Flask
+* Streaming: consuming events with AWS Kinesis and Lambda
+* Batch: scoring data offline
+<!-- * Homework -->

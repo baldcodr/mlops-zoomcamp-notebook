@@ -9,3 +9,4 @@ mlflow.db
 ./module-01/mlruns/1/e9d95fd0112e49088164ddcbe024b645/artifacts/model/model.pkl
 ./.git
 .gitignore
+.env
